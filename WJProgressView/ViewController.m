@@ -56,7 +56,7 @@
 }
 -(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-static NSString *identifer = @"cell";
+    static NSString *identifer = @"cell";
     MyCell *cell = [tableView dequeueReusableCellWithIdentifier:identifer];
     if (!cell)
     {
